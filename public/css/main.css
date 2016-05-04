@@ -1,4 +1,4 @@
-html, body, div, h1, p, blockquote, a, cite, img, ul, li, section {
+html, body, div, h1, p, blockquote, a, cite, img, li, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -32,7 +32,6 @@ h1 {
   text-transform: uppercase;
 }
 
-/* n(px) > 50 return scrollbar */
 section {
   padding: 100px 0;
 }
@@ -42,7 +41,6 @@ section {
 	padding: 1px;
 }
 
-/* Once removed will have clean font */
 .self p {
   font-size: 15px;
   margin-bottom: 13px;
@@ -58,10 +56,12 @@ a:hover {
 }
 
 .links li {
-  font-size: 12px;
-  display: inline-block;
-  margin: 10px;
-  text-transform: uppercase;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	margin: 10px;
+	text-transform: uppercase;
 }
 
 .links .spaced {
@@ -80,6 +80,5 @@ blockquote {
 }
 
 .words blockquote p {
-	font-size: 17px;
-	
+	font-size: 17px;	
 }
