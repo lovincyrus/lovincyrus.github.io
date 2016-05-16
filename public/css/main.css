@@ -29,7 +29,6 @@ h1 {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Source Serif Pro';
   font-size: 27px;
   font-weight: bold;
   letter-spacing: 3.5px;
@@ -47,6 +46,7 @@ section {
 }
 
 .self p {
+  font-family: 'Source Serif Pro';
   font-size: 15px;
   margin-bottom: 13px;
 }
