@@ -28,7 +28,7 @@ h1 {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 27px;
+  font-size: 38px;
   font-weight: bold;
   letter-spacing: 3.5px;
   text-transform: uppercase;
@@ -79,9 +79,9 @@ a:hover {
 }
 
 blockquote {
-  max-width: 470px;
+  max-width: 615px;
 }
 
 .words blockquote p {
-	font-size: 18px;	
+	font-size: 19px;	
 }
