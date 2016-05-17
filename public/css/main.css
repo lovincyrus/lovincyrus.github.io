@@ -60,7 +60,7 @@ a:hover {
 }
 
 .links li {
-  font-family: 'Source Serif Pro', Georgia, serif;
+  font-family: 'Source Serif Pro';
 	font-weight: bold;
 	font-size: 12px;
 	display: inline-block;
