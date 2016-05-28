@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #05090d;
   color: #fff;
-  font: 16px/1.5 Charter, Palatino, serif;
+  font: 16px/1.5 Charter, Palatino;
   text-align: center;
 }
 
@@ -26,42 +26,43 @@ canvas {
 }
 
 h1 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 38px;
-  font-weight: bold;
-  letter-spacing: 3.5px;
-  text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 38px;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	text-transform: uppercase;
 }
 
 section {
-  padding: 100px 0;
+  	padding: 100px 0;
 }
 
 .self .location {
-  font-family: 'Lato';
+  	font-family: 'Lato';
 	font-size: 13px;
 	padding: 1px;
 }
 
 .self p {
-  font-family: 'Lato';
-  font-size: 15px;
-  margin-bottom: 13px;
+	font-family: 'Lato';
+	font-size: 14px;
+	margin-bottom: 13px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	font-family: 'Lato';
+	color: inherit;
+	text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 .links li {
-  font-family: 'Lato';
+  	font-family: 'Lato';
 	font-weight: bold;
 	font-size: 12px;
 	display: inline-block;
@@ -74,9 +75,9 @@ a:hover {
 }
 
 .words {
-  display: inline-block;
-  padding: 40px;
-  vertical-align: top;
+	display: inline-block;
+	padding: 10px;
+	align-self: auto;
 }
 
 blockquote {
@@ -84,5 +85,6 @@ blockquote {
 }
 
 .words blockquote p {
-	font-size: 19px;	
+	font-size: 19px;
+	align-self: auto;	
 }
