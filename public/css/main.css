@@ -6,7 +6,7 @@ html, body, div, h1, p, blockquote, a, cite, img, li, section {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: Helvetica;
   vertical-align: baseline;
 }
 
