@@ -2,41 +2,41 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 html, body, div, h1, p, blockquote, a, cite, img, li, section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: Helvetica;
-  vertical-align: baseline;
+ 	 margin: 0;
+ 	 padding: 0;
+ 	 border: 0;
+ 	 font-size: 100%;
+ 	 font: Helvetica;
+ 	 vertical-align: baseline;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  background: #05090d;
-  color: #fff;
-  font: 16px/1.5 Charter, Palatino;
-  text-align: center;
+  	-webkit-font-smoothing: antialiased;
+  	background: #05090d;
+  	color: #fff;
+  	font: 16px/1.5 Charter, Palatino;
+  	text-align: center;
 }
 
 canvas {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	pointer-events: none;
 }
 
 h1 {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 38px;
+	font-size: 44px;
 	font-weight: bold;
 	letter-spacing: 3.5px;
 	text-transform: uppercase;
 }
 
 section {
-  	padding: 100px 0;
+  	padding: 110px 0;
 }
 
 .self .location {
@@ -46,7 +46,7 @@ section {
 }
 
 .self p {
-	font-family: 'Lato';
+	font-family: Avenir;
 	font-size: 14px;
 	margin-bottom: 13px;
 }
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .links li {
-  	font-family: 'Lato';
+  	font-family: Avenir;
 	font-weight: bold;
 	font-size: 12px;
 	display: inline-block;
@@ -81,7 +81,7 @@ a:hover {
 }
 
 blockquote {
-  max-width: 615px;
+  	max-width: 620px;
 }
 
 .words blockquote p {
