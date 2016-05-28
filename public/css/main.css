@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Work+Sans:200,300,400,600,700);
 
-
 html, body, div, h1, p, blockquote, a, cite, img, li, section {
   margin: 0;
   padding: 0;
@@ -70,7 +69,6 @@ a:hover {
 }
 
 .links .spaced {
-  font-family: 'Source Serif Pro';
   letter-spacing: 5px;
 }
 
