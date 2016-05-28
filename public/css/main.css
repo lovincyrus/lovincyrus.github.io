@@ -40,13 +40,13 @@ section {
 }
 
 .self .location {
-  font-family: 'Work Sans';
+  font-family: 'Lato';
 	font-size: 13px;
 	padding: 1px;
 }
 
 .self p {
-  font-family: 'Lato';
+  font-family: 'Source Serif Pro';
   font-size: 15px;
   margin-bottom: 13px;
 }
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .links .spaced {
-  font-family: 'Lato';
+  font-family: 'Source Serif Pro';
   letter-spacing: 5px;
 }
 
