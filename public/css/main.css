@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Work+Sans:200,300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 html, body, div, h1, p, blockquote, a, cite, img, li, section {
   margin: 0;
@@ -45,7 +46,7 @@ section {
 }
 
 .self p {
-  font-family: 'Source Serif Pro';
+  font-family: 'Lato';
   font-size: 15px;
   margin-bottom: 13px;
 }
@@ -69,6 +70,7 @@ a:hover {
 }
 
 .links .spaced {
+  font-family: 'Lato';
   letter-spacing: 5px;
 }
 
