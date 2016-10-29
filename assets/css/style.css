@@ -3,7 +3,6 @@
 html, body, div, h1, p, blockquote, a, cite, img, li, section {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	border: 0;
