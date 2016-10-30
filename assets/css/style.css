@@ -1,61 +1,61 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 html, body, div, h1, p, blockquote, a, cite, img, li, section {
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: Helvetica;
-	vertical-align: baseline;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: Helvetica;
+  vertical-align: baseline;
 }
 
 body {
-  	-webkit-font-smoothing: antialiased;
-  	background: #05090d;
-  	color: #fff;
-  	font: 16px/1.5 Charter;
-  	text-align: center;
+    -webkit-font-smoothing: antialiased;
+    background: #05090d;
+    color: #fff;
+    font: 16px/1.5 Charter;
+    text-align: center;
 }
 
 canvas {
-  	position: fixed;
-  	left: 0;
-  	right: 0;
-  	top: 0;
-  	bottom: 0;
-  	pointer-events: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
 }
 
 h1 {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-family: 'Lato';
-	font-size: 38px;
-	font-weight: bold;
-	letter-spacing: 3.5px;
-	text-transform: uppercase;
-	text-align: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato';
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  text-align: auto;
 }
 
 section {
-  	padding: 10px 0;
-  	padding-top: 10%;
+    padding: 10px 0;
+    padding-top: 6%;
 }
 
 .self p {
-	font-family: Avenir;
-	font-size: 14px;
-	margin-bottom: 13px;
-	text-align: auto;
+  font-family: Avenir;
+  font-size: 14px;
+  margin-bottom: 13px;
+  text-align: auto;
 }
 
 a {
-	font-family: 'Lato';
-	color: inherit;
-	text-decoration: none;
+  font-family: 'Lato';
+  color: inherit;
+  text-decoration: none;
 
 }
 
@@ -66,38 +66,38 @@ a:hover {
 
 .links li {
   font-family: Avenir;
-	font-weight: bold;
-	font-size: 12px;
-	display: inline-block;
-	margin: 10px;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 0 !important;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 !important;
 }
 
 .links .spaced {
-	letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 .words {
-	display: inline-block;
-	padding: 10px;
-	align-self: auto;
+  display: inline-block;
+  padding: 10px;
+  align-self: auto;
 }
 
 blockquote {
   max-width: 619px;
-	text-align: auto;
+  text-align: auto;
 }
 
 .words blockquote p {
-	font-size: 19px;
-	align-self: auto;
+  font-size: 19px;
+  align-self: auto;
 }
 
 .resume p {
-	padding: 35px;
-	margin: 10px;
+  padding: 35px;
+  margin: 10px;
 }
 
 
@@ -190,11 +190,11 @@ blockquote {
       color: white; }
 
 .clickable.bgfx.dark {
-	color: #F7F7F7;
+  color: #F7F7F7;
 }
 
 .clickable {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .bgfx {
@@ -232,7 +232,7 @@ blockquote {
 /** @media **/
 
 @media screen and (min-width: 1280px) {
-	section {
+  section {
     /* padding: 57px 0; */
     padding-top: 10%;
  }
