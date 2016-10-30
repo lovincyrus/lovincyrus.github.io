@@ -42,7 +42,7 @@ h1 {
 
 section {
   	padding: 10px 0;
-  	padding-top: 3cm;
+  	padding-top: 2cm;
 }
 
 .self p {
@@ -103,7 +103,7 @@ blockquote {
 
 @media screen and (min-width: 1280px) {
 	section {
-    padding: 57px 0;
-    padding-top: 3cm;
+    /* padding: 57px 0; */
+    padding-top: 2cm;
  }
 }
