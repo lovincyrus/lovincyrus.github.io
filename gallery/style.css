@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	background: #f7f5f2;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.gallery {
+	max-width: 840px;
+	width: 100%;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gallery img {
+	border: 1px solid #fff;
+}
+
+.picture {
+	padding: 36px 0;
+	border-bottom: 2px solid #dae1ec;
+}
+
+.picture:first-child {
+	padding-top: 0;
+}
+
+
+
+/*masonry*/
+.grid-item { width: 200px; }
+
+.grid-item--width2 { width: 400px; }
+
+
+
+/*demo*/
+.grid {
+    margin: auto;
+    padding-bottom: 40px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    opacity: 0.85;
+    padding-left: 80px;
+    max-width: 1000px;
+}
+
+.grid.photoswipe_showme {
+    opacity: 1
+}
+
+.grid figure {
+    float: left;
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+.grid a {
+    display: block
+}
+
+.grid img {
+    margin: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 0
+}
+
+.grid figure figcaption {
+    font-size: 13px
+}
+
+.msnry {
+    margin: auto
+}
+
+.pswp__caption__center {
+    text-align: center
+}
+
+
+/*responsive*/
+@media screen and (min-width: 630px) {
+  .gallery {
+    padding: 10px;
+  }
+
+  .picture {
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+
+
+/*masonry*/
+
+.psgal {
+    margin: auto;
+    padding-bottom: 40px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    opacity: 0.9
+}
+
+.psgal.photoswipe_showme {
+    opacity: 1
+}
+
+.psgal figure {
+    float: left;
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+.psgal a {
+    display: block
+}
+
+.psgal img {
+    margin: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border: 0
+}
+
+.psgal figure figcaption {
+    font-size: 13px
+}
+
+.msnry {
+    margin: auto
+}
+
+.pswp__caption__center {
+    text-align: center
+}

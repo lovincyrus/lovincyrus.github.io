@@ -108,3 +108,32 @@ blockquote {
     padding-top: 10%;
  }
 }
+
+@media screen and (min-width: 1918px) {
+    h1 {
+    font-size: 60px;
+    margin: 0;
+    font-size: 2.625rem;
+    line-height: 54px;
+    line-height: 3.375rem;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 38px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  blockquote {
+    line-height: 1.875rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+    /* padding-left: 2.5rem; */
+    /* border-left: 1px solid #ff5a00; */
+  }
+}
