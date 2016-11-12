@@ -47,9 +47,9 @@ section {
 
 .bio p {
   font-family: Avenir;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 13px;
-  text-align: auto;
+  font-weight: 400;
 }
 
 a {
@@ -92,12 +92,17 @@ blockquote {
 
 .words blockquote p {
   font-size: 19px;
-  align-self: auto;
+  margin-top: 30px;
+  text-align: justify;
 }
 
 .resume p {
-  padding: 35px;
-  margin: 10px;
+  padding: 22px;
+  /* margin: 0px; */
+  text-align: end;
+  /* padding-bottom: 0px; */
+  margin-bottom: 1px;
+  margin-top: -15px;
 }
 
 /** @media **/
@@ -133,7 +138,28 @@ blockquote {
     line-height: 1.875rem;
     line-height: normal;
     margin-bottom: 1.5rem;
-    /* padding-left: 2.5rem; */
-    /* border-left: 1px solid #ff5a00; */
+  }
+}
+
+@media screen and (min-width: 400px) {
+  ol, ul {
+      list-style: none;
+      display: table-caption;
+  }
+
+  h1, h2.like-h1 {
+    font-size: 24px;
+    line-height: 36px;
+    line-height: 2.25rem;
+  } 
+  
+  .words {
+    margin-right: 10px;
+  }
+
+  .words blockquote p {
+      font-size: 19px;
+      margin-top: 20px;
+      text-align: justify;
   }
 }

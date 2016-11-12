@@ -38,30 +38,79 @@
   <script src="assets/js/particles.js"></script>
   <script src="assets/js/app.js"></script>
 
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js'></script>
 </head>
 
 <body>
 
+  <header>
+      <!-- menu button -->
+      <button id="menu-trigger" class="menu-trigger pull-right">
+          <span class="menuBar"></span>
+          <span class="menuBar"></span>
+          <span class="menuBar"></span>
+          <span class="menuBar"></span>
+      </button>
+  </header>
+
+  <!-- Full screen menu -->
+  <div id="full-screen-menu" class="full-screen-menu">
+      <div class="inside-full-menu">
+          <div class="menu-container">
+              <!-- nav bar -->
+              <ul id="menu-top-menu" class="menu-list">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 menu-list-element"><a href="life/design.html">Life</a></li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 menu-list-element"><a href="#"><strike>Projects</strike></a></li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 menu-list-element"><a href="#"><strike>Thoughts</strike></a></li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24 menu-list-element"><a href="#"><strike>About</strike></a></li>
+              </ul>
+              <!-- contact -->
+              <ul class="menu-list">
+                  <!-- email -->
+                  <li class="menu-list-element-2">
+                      <div class="give-us-shout">
+                          <h6>Hit me up</h6>
+                          <div class="email-shout"><a
+                                  href="mailto:hello@lovincyrus.com">hello@lovincyrus.com</a>
+                          </div>
+                      </div>
+                  </li>
+                  <!-- social media -->
+                  <li class="menu-list-element-2">
+                      <h6 class="follow-us">Stalk me please<br>
+                          <a href="https://twitter.com/cyrsgh">twitter</a>
+                          <a href="https://github.com/lovincyrus">github</a>
+                          <a href="https://www.linkedin.com/in/cyrusgoh">linkedin</a>
+                      </h6>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
   <div style="display:flex;justify-content:center;align-items:center;">
 
   <section class="bio">
-    <h1>Cyrus Goh</h1>
-    <p>Web Developer</p>
-    
-    <ul class="links">
-      <li id="whitespace"><a href="https://twitter.com/cyrsgh" target="_blank"><span class="spaced">twitter</span></a></li>
-      <li id="whitespace"><a href="https://github.com/lovincyrus" target="_blank"><span class="spaced">github</span></a></li>
-      <li id="whitespace"><a href="https://www.linkedin.com/in/cyrusgoh" target="_blank"><span class="spaced">linkedin</span></a></li>
-    </ul>
-  
+    <h1>Cyrus Goh</h1>  
+
     <section class="words">
       <div class="animated fadeIn">
         <blockquote>
           <p id="whitespace">
-          Hello, my name is Cyrus Goh. I am an avid web developer with a penchant for the user experience and interaction design on the web. I am also currently studying Computer Science at Foothill College. I spend a lot of time thinking and observing my surroundings. Gradually, I delve into the subliminal actions of an object and the unconscious mind.
-          </p> 
-          
-          <p id="whitespace">If you would like get ahold of me, do drop me a <a href="mailto:hello@lovincyrus.com" target="_blank"><em>note</em></a>.</p>
+            Cyrus G. is a design-minded self taught Full Stack Web Developer with a penchant for the User Experience and Interaction Design.
+          </p>
+
+          <p id="whitespace">
+            He is currently studying Computer Science/Cognitive Science at Foothill College.
+          </p>
+
+          <p id="whitespace">
+            He spends a lot of time thinking and observing my surroundings.
+          </p>
+
+          <p id="whitespace">
+            Gradually, he delves into the subliminal actions of an object and the unconscious mind.
+          </p>
         </blockquote>
       </div>
     </section>
@@ -82,6 +131,9 @@
     ga('create', 'UA-71256549-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <script src="theme.js"></script>
+  <script src="main.js"></script>
 
 </body>
 </html>
