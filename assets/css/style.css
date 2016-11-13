@@ -86,7 +86,7 @@ a:hover {
 }
 
 blockquote {
-  max-width: 619px;
+  max-width: 620px;
   text-align: auto;
 }
 
@@ -98,6 +98,7 @@ blockquote {
 
 .resume p {
   padding: 22px;
+  margin-right: 31px;
   /* margin: 0px; */
   text-align: end;
   /* padding-bottom: 0px; */
@@ -158,10 +159,10 @@ blockquote {
   }
 
   .words blockquote p {
-      font-size: 19px;
+      font-size: 16px;
       margin-top: 20px;
       text-align: justify;
-      padding-left: 28px;
-      padding-right: 28px;
+      padding-left: 32px;
+      padding-right: 32px;
   }
 }
