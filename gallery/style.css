@@ -151,6 +151,15 @@ img {
     text-align: center
 }
 
+/** .grid **/
+.grid img {
+  opacity: 0.9;
+}
+
+.grid img:hover {
+  opacity: 1;
+}
+
 /** back **/
 .back {
 color: #3A4750;
