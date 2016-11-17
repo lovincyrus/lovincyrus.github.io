@@ -94,10 +94,20 @@ blockquote {
 }
 
 .words blockquote p {
-  font-size: 19px;
+  /* font-size: 19px; */
   /* align-self: center; */
   text-align: center;
   max-width: 636px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadein .5s both;
+  animation-delay: .3s;
+  /* color: rgba(58,71,80,.7); */
+  font-size: 19px;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 }
 
 .resume p {
