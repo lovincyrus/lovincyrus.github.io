@@ -1,0 +1,44 @@
+/* landing stylin */
+html {
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.down {
+    position: absolute;
+    display: inline;
+    bottom: 36px;
+    opacity: .5;
+    transition-duration: .2s;
+}
+
+.down:hover {
+	opacity: 1;
+}
+
+.content {
+	position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.name {
+	font-family: "Montserrat", Helvetica Neue, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 1.3em;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
