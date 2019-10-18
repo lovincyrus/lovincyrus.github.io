@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "v2-cyrusgoh",
+  "alias": ["v2-cyrusgoh.now.sh"],
+  "github": {
+    "silent": true
+  },
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}
